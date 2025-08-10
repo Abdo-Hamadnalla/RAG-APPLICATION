@@ -14,3 +14,7 @@ Building a mini-rag application from scratch
 ``` bash
 conda activate {env-name}
 ```
+### Run the FastApi Server:
+``` bash
+uvicorn main:app --reload --host 0.0.0.0 --port{Port number that you want}
+```
