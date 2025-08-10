@@ -1,13 +1,16 @@
 # RAG-APPLICATION
 Building a mini-rag application from scratch
 ## Installing the requirements:
--Python via Anaconda
--IDE (Vscode is 
+1) Python via Anaconda
+2) IDE (Vscode is 
 -Gitrecommended)
--WLS(Windows supported of linux)
+3) WLS(Windows supported of linux)
 -Ubuntu
 ## Create a new conda environment via the termial command:
-### conda create -n {env-name}
-
+```bash
+ conda create -n {env-name}
+```
 ### Activate the environment using the command :
+``` bash
 conda activate {env-name}
+```
