@@ -1,8 +1,7 @@
 from fastapi import FastAPI
+from dotenv import load_dotenv
+# Load environment variables from .env file
+load_dotenv(".env")
+from routes import base
 app = FastAPI()
-@app.get("/Question")
-
-def Ask_Question():
-    return {"Question": "What is the capital of Sudan?",
-            "Answer":"Khartoum"
-            }
+app.include_router(base.Base_Router)
